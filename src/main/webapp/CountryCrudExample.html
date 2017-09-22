@@ -70,7 +70,7 @@
                 function _refreshCountryData() {
                     $http({
                         method : 'GET',
-                        url : 'http://http://countrycrud-bmw.a3c1.starter-us-west-1.openshiftapps.com:8080/CountryCRUDExample/rest/countries'
+                        url : 'http://countrycrud-bmw.a3c1.starter-us-west-1.openshiftapps.com/CountryCRUDExample/rest/countries'
                     }).then(function successCallback(response) {
                         $scope.countries = response.data;
                     }, function errorCallback(response) {
